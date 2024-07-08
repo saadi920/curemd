@@ -1,0 +1,167 @@
+Q1: Write a program that takes two numbers as input and prints their sum.
+Program AddTwoNumbers;
+Read A;
+Read B;
+Sum=A+B;
+Print “Sum of A and B is” Sum;
+End;
+Q2: Write a program that prints all even numbers from 1 to 100.
+Program PrintEven1to100;
+A=1;
+While(A!=101)
+Do ( If (A/2 does not give a remainder)
+Then Print A;
+Else (Do Nothing)
+A=A+1;
+EndWhile;
+End;
+
+
+
+
+
+
+
+
+
+
+
+
+Q3:Write a program that checks if the given year is leap year or not
+Program CheckLeapYear;
+Read Year;
+If (Year/4 give no remainder)
+           If (Year/100 gives no remainder)
+            Then Print “It is a leap year”
+             Else if (Year/400 gives no remainder)
+             Then print “It is a Leap Year”
+             Else 
+             Then Print “It is not a leap Year”
+Else
+Then print “It is not a leap year”
+End;
+
+Q4: Write a program that converts Kilometer per hour into Miles per hour.
+Program KMPHtoMPH;
+Read SpeedKMPH;
+SpeedMPH=SpeedKMPH*1.6093;
+Print “Speed in Miles per Hour is”SpeedMPH;
+End;
+
+
+
+
+
+
+
+
+
+Q5: Write a pseudo code to check if the Whether the number is a buzz number or not
+Program BuzzNumber;
+Read A;
+If (A/7 does not give a remainder)
+        If ( A/10 gives a remainder of 7)
+        Then print A “is a buzz number”; 
+        Else
+        Then print A “is not a buzz number”;
+Else
+Then print A “is not a buzz number”;
+End;
+
+Q6: Write a program that takes input from user and write table for it upto 10.
+Program Tableupto10;
+Read A;
+B=1;
+While (B!=11)
+Do 
+Result=A*B;
+Print AxB “=”Result;
+B=B+1;
+EndWhile;
+End;
+
+
+
+
+
+
+Q7:Write a program that computes factorial of a number.
+Program Factorial;
+Read A;
+B=1;
+C=A;
+While(B!=A)
+Do
+C=C*B;
+B=B+1;
+EndWhile;
+Print “Factorial of”A= C;
+End;
+
+Q8:Write a function that checks if the number is prime or not?
+Program PrimeNumbers;
+Read A;
+B=2;
+C=(A-1)/2
+D=C+1;
+IsPrime=true;
+While (B!=D)
+Do 
+If (A/B gives remainder)
+Then IsPrime=true;
+Else
+Then IsPrime=false;
+Break loop;
+B=B+1;
+EndWhile;
+Print “Number is prime?” Isprime;
+End;
+
+Q9: Write a program to check whether the triangle is equilateral, isosceles or scalene triangle. 
+Program CheckTriangle;
+Read A;
+Read B;
+Read C;
+If (A==B==C)
+Then Print “ it is a equilateral  triangle”
+Else if (A!=B & A!=C & B!=C)
+Then print “It is a scalene triangle”;
+Else if (A==B OR A==C OR B==C)
+Then print “ It is a  isosceles triangle”;
+End
+
+
+Q10 Pattern Question
+Program Pattern;
+A=”*”;
+B=1;
+While(B!=6);
+Print A;
+A=A+”*”;
+B=B+1;
+EndWhile;
+End;
+
+Bonus Question.
+Program Palindrome.
+
+Read A;
+
+Rev=0;
+
+While(A>0)
+Do
+Digit=Num Mod 10 ;
+Rev=Rev*10+Digit;
+Num=Num/10;
+EndWhile;
+
+
+If (A==Rev)
+Then Print “Palindrome” 
+
+Else 
+Print “it is not palindrome”;
+End;
+
+
